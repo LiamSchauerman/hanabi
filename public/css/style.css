@@ -1,0 +1,13 @@
+.color-primary-0 { color: #5A3D69 }	/* Main Primary color */
+.color-primary-1 { color: #FAF7FC }
+.color-primary-2 { background-color: #AE98BB }
+.color-primary-3 { color: #8040A4 }
+.color-primary-4 { color: #AA3DE5 }
+
+.header{
+	background-color : #AE98BB;
+}
+
+a.btn {
+	background-color : #5A3D69;
+}

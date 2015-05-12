@@ -1,0 +1,28 @@
+[
+  {
+    "type": "bomb"
+  },
+  {
+    "type": "bomb"
+  },
+  {
+    "type": "bomb"
+  },
+  {
+    "type": "clue"
+  },
+  {
+    "type": "clue"
+  },
+  {
+    "type": "clue"
+  },
+  {
+    "type": "play"
+  },
+  {
+    "type": "play",
+    "color": "0",
+    "number": "0"
+  }
+]

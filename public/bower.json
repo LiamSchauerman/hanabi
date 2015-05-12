@@ -1,0 +1,19 @@
+{
+  "name": "hanabi",
+  "main": "hanabi.js",
+  "version": "0.0.0",
+  "authors": [
+    "Liam Schauerman <ljschauerman@gmail.com>"
+  ],
+  "keywords": [
+    "games"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
