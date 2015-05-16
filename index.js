@@ -4,7 +4,7 @@ var port = process.env.PORT || 1337;
 //  reqs
 var	express = require("express"),
 	bodyParser = require("body-parser"),
-	jf = require('jsonfile'),
+	fs = require('fs'),
 	util = require('util')
 
 // configure app
@@ -25,7 +25,7 @@ app.post('/save', function(req,res){
 	console.log(req.body)
 	var moves = req.body.moves
 	 
-	jf.writeFile(file, moves, function(err) {
+	fs.appendFile(file, ",\n"+JSON.stringify(moves), function(err) {
 	  console.log(err)
 	  console.log('done writing to '+file)
 	})

@@ -11,8 +11,9 @@
 var moves = [];
 
 function play(){
-	var color = $(".colorpicker > .active").val()
-	var number = $(".numberpicker > .active").val()
+	debugger;
+	var color = $(".colorpicker > .active")[0].textContent;
+	var number = $(".numberpicker > .active")[0].textContent;
 	moves.push({
 		type:"play",
 		color: color,
